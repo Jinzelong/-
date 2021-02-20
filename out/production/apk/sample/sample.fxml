@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="726.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <TableView fx:id="tableview" layoutX="14.0" layoutY="76.0" prefHeight="384.0" prefWidth="706.0" AnchorPane.bottomAnchor="116.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="6.0" AnchorPane.topAnchor="76.0">
+            <columns>
+                <TableColumn fx:id="company" prefWidth="85.0" text="渠道名称" />
+                <TableColumn fx:id="demo" prefWidth="190.0" text="package" />
+                <TableColumn fx:id="targetSdkVersion" prefWidth="110.0" text="targetSdkVersion" />
+                <TableColumn fx:id="MD5" prefWidth="260.0" text="MD5" />
+                <TableColumn fx:id="versionCode" minWidth="5.0" prefWidth="87.0" text="versionCode" />
+                <TableColumn fx:id="versionName" minWidth="10.0" prefWidth="87.0" text="versionName"/>
+                <TableColumn fx:id="InstallLocation" prefWidth="100.0" text="InstallLocation" />
+            </columns>
+        </TableView>
+        <Button fx:id="input" layoutX="136.0" layoutY="407.0" mnemonicParsing="false" onAction="#input_file" text="导入文件" AnchorPane.bottomAnchor="25.0" />
+        <Button fx:id="output" layoutX="489.0" layoutY="407.0" mnemonicParsing="false" onAction="#excel" text="导出至excel" AnchorPane.bottomAnchor="25.0" />
+        <Button fx:id="clear" layoutX="319.0" layoutY="524.0" mnemonicParsing="false" onAction="#clearAll" text="全部清除" AnchorPane.bottomAnchor="25.0" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="apk.jnlp">
+  <information>
+    <title>apk</title>
+    <vendor>Unknown</vendor>
+    <description>apk</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SparseBitSet-1.2.jar" size="24510" download="eager" />
+    <jar href="apk.jar" size="12926" download="eager" />
+    <jar href="commons-codec-1.15.jar" size="353793" download="eager" />
+    <jar href="commons-collections4-4.4.jar" size="751914" download="eager" />
+    <jar href="commons-math3-3.6.1.jar" size="2213560" download="eager" />
+    <jar href="poi-5.0.0.jar" size="2906684" download="eager" />
+    <jar href="poi-ooxml-5.0.0.jar" size="1880314" download="eager" />
+    <jar href="poi-ooxml-full-5.0.0.jar" size="19267559" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="sample.Main"  name="apk" />
+  <update check="background"/>
+</jnlp>
